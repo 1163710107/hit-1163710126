@@ -12,7 +12,8 @@ namespace ConsoleApp1
         {
             string mystring = Console.ReadLine();
             mystring = mystring.Replace("no", "yes");
-        
+
+            Console.WriteLine("the result is");
             Console.WriteLine("{0}", mystring);
             Console.ReadKey();
         }
